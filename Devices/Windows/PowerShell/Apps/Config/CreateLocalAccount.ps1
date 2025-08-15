@@ -1,7 +1,6 @@
-# --- Siminirahh Workflow Variables ---
 $Siminiraah_Username = ''
 $Siminiraah_Password = ''
-# -------------------------
+
 
 # --- Action: Create Local Account ---
 Write-Host "Creating local account for $Siminiraah_Username..."
