@@ -1,14 +1,10 @@
-# --- Workflow Variables ---
-export username='test'
-export realname='test'
+# --- Siminiraah Workflow Variables ---
+Siminiraah_Username=""
+Siminiraah_Password=""
 # -------------------------
 
 # --- Action: Create Local Account ---
-#!/bin/bash
-# Creates a new local user account
-echo
+echo "Creating local account for $Siminiraah_Username..."
 
-echo "Creating local account for $username..."
-# This is a simplified example. In a real script, you would use sysadminctl or dscl.
-# sudo sysadminctl -addUser $username -fullName "$realname" -password "$password"
-echo "Account for $username created successfully."
+
+echo "Account for $Siminiraah_Username created successfully."
