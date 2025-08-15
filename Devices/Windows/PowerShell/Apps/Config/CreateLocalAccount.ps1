@@ -1,12 +1,9 @@
-# --- Workflow Variables ---
-$Username = ''
-$Password = ''
+# --- Siminirahh Workflow Variables ---
+$Siminiraah_Username = ''
+$Siminiraah_Password = ''
 # -------------------------
 
 # --- Action: Create Local Account ---
-Write-Host "Creating local account for $Username..."
-# This is a simplified example. In a real script, you would use New-LocalUser.
-# $PasswordString = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($Password))
-# New-LocalUser -Name $Username -Password $Password -FullName $Username -Description "Account created by script."
+Write-Host "Creating local account for $Siminiraah_Username..."
 
-Write-Host "Account for $Username created successfully."
+Write-Host "Account for $Siminiraah_Username created successfully."
