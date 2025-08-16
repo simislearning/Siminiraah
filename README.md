@@ -11,7 +11,7 @@ Inspired by **CIPP** and **Power Automate**, the goal is to simplify IT automati
 The platform focuses on making automation **accessible, customizable, and secure**.  
 
 ### ✨ Features (Planned & In Progress)
-- ⚡ Generate scripts for **Windows (PowerShell)** and **macOS (Bash/AppleScript)**  
+- ⚡ Generate scripts for **Windows (PowerShell)** and **macOS (Shell)**  
 - 🔐 Build and manage **Conditional Access Policies**  
 - 📦 Deploy **Intune templates** for device configuration and compliance  
 - 🖥️ Provide a **low-code/no-code interface** to manage automation flows  
